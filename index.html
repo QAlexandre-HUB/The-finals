@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE FINALS - Stats des Dégâts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>THE FINALS <span>// DAMAGE STATS</span></h1>
+
+        <div class="class-selector">
+            <button class="filter-btn active" data-class="Toutes">TOUTES</button>
+            <button class="filter-btn" data-class="Light">Légère</button>
+            <button class="filter-btn" data-class="Moyenne">MOYENNE</button>
+            <button class="filter-btn" data-class="Lourde">LOURDE</button>
+        </div>
+
+        <input type="text" id="search" placeholder="Rechercher une arme ou un gadget...">
+    </header>
+
+<main id="stats-container" class="gallery-grid">
+    </main>
+
+    <div id="item-modal" class="modal">
+         <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div id="modal-body">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
